@@ -13,10 +13,11 @@ const CardStyled = styled.div`
   justify-content: center;
   align-items: center;
 
-  
   @media screen and (max-width: 576px) {
-    min-width: 90px;
-  height: 80px;
+    min-width: 70px;
+    width: auto;
+    min-height: 80px;
+    height: auto;
   }
 
   &::before {
@@ -45,9 +46,13 @@ const CardStyled = styled.div`
   .curtain {
     align-self: flex-start;
     height: 50%;
-    width: 150px;
+    width: 100%;
     background-color: ${({ theme }) => theme.curtain};
     position: relative;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+      min-height: 40px;
+    }
 
     &::after {
       content: '';
@@ -57,6 +62,10 @@ const CardStyled = styled.div`
       z-index: 1;
       bottom: 0;
       background-color: rgba(0, 0, 0, 0.2);
+      @media screen and (max-width: 576px) {
+        min-width: 70px;
+        width: auto;
+      }
     }
   }
 
@@ -65,8 +74,8 @@ const CardStyled = styled.div`
     position: absolute;
     font-size: 6.2rem;
     @media screen and (max-width: 576px) {
-      font-size: 3.5rem;
-  }
+      font-size: 3rem;
+    }
   }
 `;
 
