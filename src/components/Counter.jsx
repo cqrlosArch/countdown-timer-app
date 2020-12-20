@@ -9,7 +9,7 @@ const CounterStyled = styled.div`
   height: 100%;
   justify-content: space-evenly;
   align-items: flex-start;
-  gap:.5rem;
+  gap: 0.5rem;
 `;
 
 const Counter = () => {

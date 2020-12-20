@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import React from 'react';
-import ReactCardFlip from 'react-card-flip';
 
 const CardStyled = styled.div`
   min-width: 150px;
@@ -61,7 +60,6 @@ const CardStyled = styled.div`
     font-size: 6.2rem;
   }
 `;
-
 
 const Card = React.memo(({ number, changed }) => {
   return (
