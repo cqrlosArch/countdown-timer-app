@@ -26,9 +26,7 @@ const GlobalStyled = createGlobalStyle`
       color:hsl(0, 0%, 100%);
       min-height:100vh;
       height:100vh;
-      @media screen and (max-width: 500px){
-        
-      }
+  
     
      
       &::after{
@@ -41,7 +39,8 @@ const GlobalStyled = createGlobalStyle`
         background-size:100%;
         overflow:hidden;
         @media screen and (max-width: 500px){
-        
+          background-size:250%;
+          bottom:-20px;
       }
       }
     }

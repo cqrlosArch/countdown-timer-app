@@ -13,6 +13,12 @@ const CardStyled = styled.div`
   justify-content: center;
   align-items: center;
 
+  
+  @media screen and (max-width: 576px) {
+    min-width: 90px;
+  height: 80px;
+  }
+
   &::before {
     content: '';
     width: 10px;
@@ -58,6 +64,9 @@ const CardStyled = styled.div`
     color: ${({ theme }) => theme.number};
     position: absolute;
     font-size: 6.2rem;
+    @media screen and (max-width: 576px) {
+      font-size: 3.5rem;
+  }
   }
 `;
 

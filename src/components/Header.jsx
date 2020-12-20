@@ -5,6 +5,7 @@ const HeaderStyled = styled.header`
   justify-content: center;
   align-items: center;
   .title {
+    text-align:center;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
   }

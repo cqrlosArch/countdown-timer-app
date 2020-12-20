@@ -10,6 +10,9 @@ const FooterStyled = styled.div`
   z-index: 10;
   display: flex;
   justify-content: space-evenly;
+  @media screen and (max-width: 576px) {
+    width: 70%;
+  }
 `;
 
 const Footer = () => {
