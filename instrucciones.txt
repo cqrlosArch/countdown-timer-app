@@ -1,0 +1,10 @@
+Su desafío es construir este temporizador de cuenta regresiva y hacer que se parezca lo más posible al diseño.
+
+Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
+
+Sus usuarios deberían poder:
+
+Ver estados de desplazamiento para todos los elementos interactivos en la página
+Vea un temporizador de cuenta regresiva en vivo que marca cada segundo
+Bono: cuando cambia un número, haz que la carta se dé la vuelta desde el medio
+Descargue el código de inicio y revise el archivo README.md. Esto proporcionará más detalles sobre el proyecto. El archivo style-guide.md es donde encontrará colores, fuentes, etc.
