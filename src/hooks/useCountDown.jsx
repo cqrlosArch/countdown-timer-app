@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 const useCountDown = (limitDate) => {
-  const [days, setDays] = useState(0);
-  const [hours, setHours] = useState(0);
-  const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeonds] = useState(0);
+  const [days, setDays] = useState('08');
+  const [hours, setHours] = useState('23');
+  const [minutes, setMinutes] = useState('55');
+  const [seconds, setSeonds] = useState('41');
 
   const countDown = (limitDate) => {
     // const $countDown=document.getElementById(id),
