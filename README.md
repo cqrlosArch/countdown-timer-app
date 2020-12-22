@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="countdown-timer-app.cqrlosarch.vercel.app" target="_blank">
+    <a href="countdown-timer-app.cqrlosarch.vercel.app" >
       Demo
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/reactjs-and-styled-components-1M3leBwTK" target="_blank">
+    <a href="https://www.frontendmentor.io/solutions/reactjs-and-styled-components-1M3leBwTK" >
       Solution
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-" target="_blank">
+    <a href="https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-">
       Challenge
     </a>
   </h3>
