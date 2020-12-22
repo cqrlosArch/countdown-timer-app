@@ -13,7 +13,7 @@ const useCountDown = (limitDate) => {
     let countDownTempo = setInterval(() => {
       let now = new Date().getTime(),
         limitTime = countDownDate - now,
-        days = Math.floor(limitTime / (1000 * 60 * 60 * 24)),
+        days = ('0' + Math.floor(limitTime / (1000 * 60 * 60 * 24))).slice(-2),
         hours = (
           '0' +
           Math.floor((limitTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
