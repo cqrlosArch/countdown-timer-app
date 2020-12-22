@@ -37,15 +37,11 @@
 
 ## Overview
 
-
 <p align="center">
   <img src="screenshot.png">
 </p>
 
-
 ### Built With
-
-
 
 - [React](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
