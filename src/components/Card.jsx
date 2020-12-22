@@ -77,6 +77,7 @@ const CardStyled = styled.div`
       font-size: 3rem;
     }
   }
+ 
 `;
 
 const Card = React.memo(({ number, changed }) => {

@@ -10,6 +10,19 @@ const CounterStyled = styled.div`
   justify-content: space-evenly;
   align-items: flex-start;
   gap: 0.5rem;
+
+  .text {
+    font-size: 11px;
+    letter-spacing: 0.3rem;
+    color: ${({ theme }) => theme.text};
+    width: inherit;
+    text-align: center;
+    margin-top: 2rem;
+    @media screen and (max-width: 576px) {
+      font-size: 8px;
+      letter-spacing: 0.2rem;
+    }
+  }
 `;
 
 const Counter = () => {
@@ -17,10 +30,22 @@ const Counter = () => {
 
   return (
     <CounterStyled>
-      <Card number={days} />
-      <Card number={hours} />
-      <Card number={minutes} />
-      <Card number={seconds} />
+      <div>
+        <Card number={days} />
+        <p className="text">DAYS</p>
+      </div>
+      <div>
+        <Card number={hours} />
+        <p className="text">HOURS</p>
+      </div>
+      <div>
+        <Card number={minutes} />
+        <p className="text">MINUTES</p>
+      </div>
+      <div>
+        <Card number={seconds} />
+        <p className="text">SECONDS</p>
+      </div>
     </CounterStyled>
   );
 };
